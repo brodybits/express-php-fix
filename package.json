@@ -1,6 +1,6 @@
 {
-  "name": "express-php",
-  "version": "0.0.1",
+  "name": "express-php-fix",
+  "version": "0.0.2-cbfix",
   "description": "serving PHP over Express/Node.js",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alangecker/express-php.git"
+    "url": "git+https://github.com/brodybits/express-php-fix.git"
   },
   "keywords": [
     "php",
@@ -17,9 +17,9 @@
   "author": "Andreas Langecker",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alangecker/express-php/issues"
+    "url": "https://github.com/brodybits/express-php-fix/issues"
   },
-  "homepage": "https://github.com/alangecker/express-php#readme",
+  "homepage": "https://github.com/brodybits/express-php-fix#README",
   "dependencies": {
     "path": "^0.12.7"
   }

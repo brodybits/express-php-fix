@@ -1,7 +1,6 @@
+# express-php-fix
 
-# express-php
-serving PHP over Express & Node.js
-
+Serving PHP over Express & Node.js, with a fix for a user-specified `php-cgi` command.
 
 ## Example
 
@@ -10,7 +9,7 @@ var express = require('express');
 var php = require('express-php');
 var app = express();
 
-app.use(php.cgi('./httpdocs'));
+app.use(php.cgi('./httpdocs', '/usr/local/bin/php-cgi'));
 app.use(express.static('./httpdocs'));
 
 app.listen(4000);
